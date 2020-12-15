@@ -58,7 +58,7 @@
   <script src="epub.js"></script>
   <script>
     var book = ePub("fixedpdf.epub");
-    var rendition = book.renderTo("area", { width: 600, height: 400 });
+    var rendition = book.renderTo("area", { flow: "paginated", width: "900", height: "600" });
     var displayed = rendition.display();
   </script>
 </body>
